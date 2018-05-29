@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8AD0BC9720BD545300FC5165 /* thirdAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD0BC9520BD545300FC5165 /* thirdAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AD0BCA220BD54A100FC5165 /* AcbAdmobManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD0BCA020BD54A100FC5165 /* AcbAdmobManager.h */; };
+		8AD0BCA320BD54A100FC5165 /* AcbAdmobManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD0BCA120BD54A100FC5165 /* AcbAdmobManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8AD0BC9220BD545300FC5165 /* thirdAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = thirdAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD0BC9520BD545300FC5165 /* thirdAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = thirdAdapter.h; sourceTree = "<group>"; };
 		8AD0BC9620BD545300FC5165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AD0BCA020BD54A100FC5165 /* AcbAdmobManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcbAdmobManager.h; sourceTree = "<group>"; };
+		8AD0BCA120BD54A100FC5165 /* AcbAdmobManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcbAdmobManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +50,36 @@
 		8AD0BC9420BD545300FC5165 /* thirdAdapter */ = {
 			isa = PBXGroup;
 			children = (
+				8AD0BC9D20BD545C00FC5165 /* 3rdAdapter */,
 				8AD0BC9520BD545300FC5165 /* thirdAdapter.h */,
 				8AD0BC9620BD545300FC5165 /* Info.plist */,
 			);
 			path = thirdAdapter;
+			sourceTree = "<group>";
+		};
+		8AD0BC9D20BD545C00FC5165 /* 3rdAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				8AD0BC9E20BD546C00FC5165 /* RewardedVideo */,
+			);
+			path = 3rdAdapter;
+			sourceTree = "<group>";
+		};
+		8AD0BC9E20BD546C00FC5165 /* RewardedVideo */ = {
+			isa = PBXGroup;
+			children = (
+				8AD0BC9F20BD548600FC5165 /* Admob */,
+			);
+			path = RewardedVideo;
+			sourceTree = "<group>";
+		};
+		8AD0BC9F20BD548600FC5165 /* Admob */ = {
+			isa = PBXGroup;
+			children = (
+				8AD0BCA020BD54A100FC5165 /* AcbAdmobManager.h */,
+				8AD0BCA120BD54A100FC5165 /* AcbAdmobManager.m */,
+			);
+			path = Admob;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +90,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AD0BC9720BD545300FC5165 /* thirdAdapter.h in Headers */,
+				8AD0BCA220BD54A100FC5165 /* AcbAdmobManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD0BCA320BD54A100FC5165 /* AcbAdmobManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
